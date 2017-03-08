@@ -1,2 +1,7 @@
 Item,Reference(s),Value,Quantity,Description,PartNumber,Vendor
-1,MDB1,MODULAR_DEVICE_BASE_3X2_MALE,2,16 Position Header Through Hole Male Pins,S1011E-16-ND,digikey
+1,C1,0.1uF,1,CAP CER 0.1UF 50V 10% X7R 1210,478-3586-1-ND,digikey
+2,MDB1,MODULAR_DEVICE_BASE_3X2_MALE,2,16 Position Header Through Hole Male Pins,S1011E-16-ND,digikey
+3,P1 P2,BNC_DOUBLE_RA,2,CONN BNC JACK R/A 75 OHM PCB,ACX1655-ND,digikey
+4,P3 P4 P5 P6,HEADER_01X05_SMD_SHR,4,CONN HEADER .100 VERT 5POS SMD,WM7205-ND,digikey
+5,R1 R2 R3 R4,180,4,RES SMD 180 OHM 5% 1/2W 1210,P180VCT-ND,digikey
+6,U1,SN74ABT541BDWR,1,Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC,296-14668-1-ND,digikey

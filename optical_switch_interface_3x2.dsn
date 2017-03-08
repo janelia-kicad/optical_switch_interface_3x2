@@ -1,0 +1,442 @@
+(pcb /home/polidorop/git/kicad/optical_switch_interface_3x2/optical_switch_interface_3x2.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "no-vcs-found-6223534~58~ubuntu16.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  85725 -68580  155575 -68580  155575 -109220  85725 -109220
+            85725 -68580  85725 -68580)
+    )
+    (via "Via[0-1]_889:635_um")
+    (rule
+      (width 254)
+      (clearance 25.5)
+      (clearance 25.5 (type default_smd))
+      (clearance 6.35 (type smd_smd))
+    )
+  )
+  (placement
+    (component optical_switch_interface_3x2:MODULAR_DEVICE_BASE_3X2_MALE
+      (place MDB1 107315 -88900 front 0 (PN MODULAR_DEVICE_BASE_3X2_MALE))
+    )
+    (component optical_switch_interface_3x2:SM1210
+      (place C1 130810 -88900 back 270 (PN 0.1uF))
+      (place R2 127635 -81915 back 0 (PN 180))
+      (place R4 127635 -95885 back 0 (PN 180))
+    )
+    (component optical_switch_interface_3x2:BNC_DOUBLE
+      (place P1 149860 -76200 front 270 (PN BNC_DOUBLE_RA))
+    )
+    (component optical_switch_interface_3x2:BNC_DOUBLE::1
+      (place P2 149860 -101600 front 270 (PN BNC_DOUBLE_RA))
+    )
+    (component optical_switch_interface_3x2:Header_Shrouded_5_Pin_SMD
+      (place P3 104775 -81915 front 0 (PN HEADER_01X05_SMD_SHR))
+      (place P5 104775 -95885 front 0 (PN HEADER_01X05_SMD_SHR))
+    )
+    (component optical_switch_interface_3x2:Header_Shrouded_5_Pin_SMD::1
+      (place P4 125095 -81915 front 0 (PN HEADER_01X05_SMD_SHR))
+      (place P6 125095 -95885 front 0 (PN HEADER_01X05_SMD_SHR))
+    )
+    (component optical_switch_interface_3x2:SM1210::1
+      (place R1 107315 -81915 back 0 (PN 180))
+      (place R3 107315 -95885 back 0 (PN 180))
+    )
+    (component optical_switch_interface_3x2:SOIC_20
+      (place U1 140970 -88900 back 90 (PN SN74ABT541BDWR))
+    )
+  )
+  (library
+    (image optical_switch_interface_3x2:MODULAR_DEVICE_BASE_3X2_MALE
+      (outline (path signal 228.6  -15240 12700  -15364.3 11915.1  -15725.1 11207  -16287 10645.1
+            -16995.1 10284.3  -17780 10160  -18564.9 10284.3  -19273 10645.1
+            -19834.9 11207  -20195.7 11915.1  -20320 12700  -20195.7 13484.9
+            -19834.9 14193  -19273 14754.9  -18564.9 15115.7  -17780 15240
+            -16995.1 15115.7  -16287 14754.9  -15725.1 14193  -15364.3 13484.9))
+      (outline (path signal 228.6  -15240 -12700  -15364.3 -13484.9  -15725.1 -14193  -16287 -14754.9
+            -16995.1 -15115.7  -17780 -15240  -18564.9 -15115.7  -19273 -14754.9
+            -19834.9 -14193  -20195.7 -13484.9  -20320 -12700  -20195.7 -11915.1
+            -19834.9 -11207  -19273 -10645.1  -18564.9 -10284.3  -17780 -10160
+            -16995.1 -10284.3  -16287 -10645.1  -15725.1 -11207  -15364.3 -11915.1))
+      (outline (path signal 228.6  25400 -17780  25275.7 -18564.9  24914.9 -19273  24353 -19834.9
+            23644.9 -20195.7  22860 -20320  22075.1 -20195.7  21367 -19834.9
+            20805.1 -19273  20444.3 -18564.9  20320 -17780  20444.3 -16995.1
+            20805.1 -16287  21367 -15725.1  22075.1 -15364.3  22860 -15240
+            23644.9 -15364.3  24353 -15725.1  24914.9 -16287  25275.7 -16995.1))
+      (outline (path signal 228.6  25400 17780  25275.7 16995.1  24914.9 16287  24353 15725.1
+            23644.9 15364.3  22860 15240  22075.1 15364.3  21367 15725.1
+            20805.1 16287  20444.3 16995.1  20320 17780  20444.3 18564.9
+            20805.1 19273  21367 19834.9  22075.1 20195.7  22860 20320  23644.9 20195.7
+            24353 19834.9  24914.9 19273  25275.7 18564.9))
+      (outline (path signal 381  -20320 -16510  -20320 -19050))
+      (outline (path signal 381  -20320 -19050  20320 -19050))
+      (outline (path signal 381  20320 -19050  20320 -16510))
+      (outline (path signal 381  20320 -16510  -20320 -16510))
+      (outline (path signal 381  -20320 19050  -20320 16510))
+      (outline (path signal 381  -20320 16510  20320 16510))
+      (outline (path signal 381  20320 16510  20320 19050))
+      (outline (path signal 381  20320 19050  -20320 19050))
+      (outline (path signal 228.6  -21590 20320  -21590 -20320))
+      (outline (path signal 228.6  -21590 -20320  48260 -20320))
+      (outline (path signal 228.6  48260 -20320  48260 20320))
+      (outline (path signal 228.6  48260 20320  -21590 20320))
+      (pin Oval[A]Pad_1854.2x2540_um GND -16510 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 24 -13970 17780)
+      (pin Rect[A]Pad_1854.2x2540_um VDD -19050 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 25 -11430 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 2 -8890 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 3 -6350 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 4 -3810 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 5 -1270 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 6 1270 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 30 3810 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 29 6350 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 9 8890 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 10 11430 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 11 13970 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 12 16510 17780)
+      (pin Oval[A]Pad_1854.2x2540_um 28 19050 17780)
+      (pin Oval[A]Pad_1854.2x2540_um DAC 19050 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 13 16510 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 14 13970 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 15 11430 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 16 8890 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 17 6350 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 18 3810 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 19 1270 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 20 -1270 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 21 -3810 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 22 -6350 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 23 -8890 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um 3V3 -11430 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um AGND -13970 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um VEE -16510 -17780)
+      (pin Oval[A]Pad_1854.2x2540_um AREF -19050 -17780)
+      (pin Round[A]Pad_3556_um @1 -17780 12700)
+      (pin Round[A]Pad_3556_um @2 -17780 -12700)
+      (pin Round[A]Pad_3556_um @3 22860 -17780)
+      (pin Round[A]Pad_3556_um @4 22860 17780)
+    )
+    (image optical_switch_interface_3x2:SM1210
+      (outline (path signal 127  -762 1397  -2286 1397))
+      (outline (path signal 127  -2286 1397  -2286 -1397))
+      (outline (path signal 127  -2286 -1397  -762 -1397))
+      (outline (path signal 127  762 -1397  2286 -1397))
+      (outline (path signal 127  2286 -1397  2286 1397))
+      (outline (path signal 127  2286 1397  762 1397))
+      (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
+      (pin Rect[T]Pad_1270x2540_um 2 1524 0)
+    )
+    (image optical_switch_interface_3x2:BNC_DOUBLE
+      (outline (path signal 381  2540 -6350  3302 -5588))
+      (outline (path signal 381  -1270 -7620  -2286 -6096))
+      (outline (path signal 381  -6350 5715  -6350 6350))
+      (outline (path signal 381  -6350 6350  6350 6350))
+      (outline (path signal 381  6350 6350  6350 5715))
+      (outline (path signal 381  -7620 5715  -7620 -10160))
+      (outline (path signal 381  -7620 -10160  7620 -10160))
+      (outline (path signal 381  7620 -10160  7620 5715))
+      (outline (path signal 381  7620 5715  -7620 5715))
+      (outline (path signal 381  4318 -8255  508 -4445))
+      (outline (path signal 381  0 -7620  -2540 -7620))
+      (pin Oval[A]Pad_3048x5080_um @1 -5080 0)
+      (pin Oval[A]Pad_3048x5080_um @2 5080 0)
+      (pin Oval[A][0,254]Pad_1524x2032_um 1 0 -6350)
+      (pin Oval[A]Pad_2032x1524_um 3 0 -8890)
+      (pin Oval[A][254,0]Pad_2032x1524_um 2 2540 -8890)
+      (pin "Oval[A][-254,0]Pad_2032x1524_um" 4 -2540 -8890)
+    )
+    (image optical_switch_interface_3x2:BNC_DOUBLE::1
+      (outline (path signal 381  0 -7620  -2540 -7620))
+      (outline (path signal 381  4318 -8255  508 -4445))
+      (outline (path signal 381  7620 5715  -7620 5715))
+      (outline (path signal 381  7620 -10160  7620 5715))
+      (outline (path signal 381  -7620 -10160  7620 -10160))
+      (outline (path signal 381  -7620 5715  -7620 -10160))
+      (outline (path signal 381  6350 6350  6350 5715))
+      (outline (path signal 381  -6350 6350  6350 6350))
+      (outline (path signal 381  -6350 5715  -6350 6350))
+      (outline (path signal 381  -1270 -7620  -2286 -6096))
+      (outline (path signal 381  2540 -6350  3302 -5588))
+      (pin "Oval[A][-254,0]Pad_2032x1524_um" 4 -2540 -8890)
+      (pin Oval[A][254,0]Pad_2032x1524_um 2 2540 -8890)
+      (pin Oval[A]Pad_2032x1524_um 3 0 -8890)
+      (pin Oval[A][0,254]Pad_1524x2032_um 1 0 -6350)
+      (pin Oval[A]Pad_3048x5080_um @1 5080 0)
+      (pin Oval[A]Pad_3048x5080_um @2 -5080 0)
+    )
+    (image optical_switch_interface_3x2:Header_Shrouded_5_Pin_SMD
+      (outline (path signal 381  3810 2540  3810 4064))
+      (outline (path signal 381  -3810 2540  -3810 4064))
+      (outline (path signal 381  4445 5207  5080 3937))
+      (outline (path signal 381  5080 3937  5715 5207))
+      (outline (path signal 381  5715 5207  4445 5207))
+      (outline (path signal 381  -3810 4064  3810 4064))
+      (outline (path signal 381  -7620 2540  -7620 -2540))
+      (outline (path signal 381  -7620 -2540  7620 -2540))
+      (outline (path signal 381  7620 -2540  7620 2540))
+      (outline (path signal 381  7620 2540  -7620 2540))
+      (pin Rect[T]Pad_1270x3175_um 2 2540 -2095.5)
+      (pin Rect[T]Pad_1270x3175_um 1 5080 2095.5)
+      (pin Rect[T]Pad_1270x3175_um 3 0 2095.5)
+      (pin Rect[T]Pad_1270x3175_um 4 -2540 -2095.5)
+      (pin Rect[T]Pad_1270x3175_um 5 -5080 2095.5)
+    )
+    (image optical_switch_interface_3x2:Header_Shrouded_5_Pin_SMD::1
+      (outline (path signal 381  7620 2540  -7620 2540))
+      (outline (path signal 381  7620 -2540  7620 2540))
+      (outline (path signal 381  -7620 -2540  7620 -2540))
+      (outline (path signal 381  -7620 2540  -7620 -2540))
+      (outline (path signal 381  -3810 4064  3810 4064))
+      (outline (path signal 381  5715 5207  4445 5207))
+      (outline (path signal 381  5080 3937  5715 5207))
+      (outline (path signal 381  4445 5207  5080 3937))
+      (outline (path signal 381  -3810 2540  -3810 4064))
+      (outline (path signal 381  3810 2540  3810 4064))
+      (pin Rect[T]Pad_1270x3175_um 5 -5080 2095.5)
+      (pin Rect[T]Pad_1270x3175_um 4 -2540 -2095.5)
+      (pin Rect[T]Pad_1270x3175_um 3 0 2095.5)
+      (pin Rect[T]Pad_1270x3175_um 1 5080 2095.5)
+      (pin Rect[T]Pad_1270x3175_um 2 2540 -2095.5)
+    )
+    (image optical_switch_interface_3x2:SM1210::1
+      (outline (path signal 127  2286 1397  762 1397))
+      (outline (path signal 127  2286 -1397  2286 1397))
+      (outline (path signal 127  762 -1397  2286 -1397))
+      (outline (path signal 127  -2286 -1397  -762 -1397))
+      (outline (path signal 127  -2286 1397  -2286 -1397))
+      (outline (path signal 127  -762 1397  -2286 1397))
+      (pin Rect[T]Pad_1270x2540_um 2 1524 0)
+      (pin Rect[T]Pad_1270x2540_um 1 -1524 0)
+    )
+    (image optical_switch_interface_3x2:SOIC_20
+      (outline (path signal 381  -1905 5080  -1936.08 4883.77  -2026.27 4706.76  -2166.76 4566.27
+            -2343.77 4476.08  -2540 4445  -2736.23 4476.08  -2913.24 4566.27
+            -3053.73 4706.76  -3143.92 4883.77  -3175 5080  -3143.92 5276.23
+            -3053.73 5453.24  -2913.24 5593.73  -2736.23 5683.92  -2540 5715
+            -2343.77 5683.92  -2166.76 5593.73  -2026.27 5453.24  -1936.08 5276.23))
+      (outline (path signal 381  -3750 6500  -3750 -6500))
+      (outline (path signal 381  -3750 -6500  3750 -6500))
+      (outline (path signal 381  3750 -6500  3750 6500))
+      (outline (path signal 381  3750 6500  -3750 6500))
+      (pin Rect[T]Pad_2000x600_um 20 4650 5715)
+      (pin Rect[T]Pad_2000x600_um 19 4650 4445)
+      (pin Rect[T]Pad_2000x600_um 18 4650 3175)
+      (pin Rect[T]Pad_2000x600_um 17 4650 1905)
+      (pin Rect[T]Pad_2000x600_um 16 4650 635)
+      (pin Rect[T]Pad_2000x600_um 15 4650 -635)
+      (pin Rect[T]Pad_2000x600_um 14 4650 -1905)
+      (pin Rect[T]Pad_2000x600_um 13 4650 -3175)
+      (pin Rect[T]Pad_2000x600_um 12 4650 -4445)
+      (pin Rect[T]Pad_2000x600_um 11 4650 -5715)
+      (pin Rect[T]Pad_2000x600_um 10 -4650 -5715)
+      (pin Rect[T]Pad_2000x600_um 9 -4650 -4445)
+      (pin Rect[T]Pad_2000x600_um 8 -4650 -3175)
+      (pin Rect[T]Pad_2000x600_um 7 -4650 -1905)
+      (pin Rect[T]Pad_2000x600_um 6 -4650 -635)
+      (pin Rect[T]Pad_2000x600_um 5 -4650 635)
+      (pin Rect[T]Pad_2000x600_um 4 -4650 1905)
+      (pin Rect[T]Pad_2000x600_um 3 -4650 3175)
+      (pin Rect[T]Pad_2000x600_um 2 -4650 4445)
+      (pin Rect[T]Pad_2000x600_um 1 -4650 5715)
+    )
+    (padstack Round[A]Pad_3556_um
+      (shape (circle F.Cu 3556))
+      (shape (circle B.Cu 3556))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2032x1524_um
+      (shape (path F.Cu 1524  -254 0  254 0))
+      (shape (path B.Cu 1524  -254 0  254 0))
+      (attach off)
+    )
+    (padstack "Oval[A][-254,0]Pad_2032x1524_um"
+      (shape (path F.Cu 1524  -508 0  0 0))
+      (shape (path B.Cu 1524  -508 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A][0,254]Pad_1524x2032_um
+      (shape (path F.Cu 1524  0 0  0 508))
+      (shape (path B.Cu 1524  0 0  0 508))
+      (attach off)
+    )
+    (padstack Oval[A][254,0]Pad_2032x1524_um
+      (shape (path F.Cu 1524  0 0  508 0))
+      (shape (path B.Cu 1524  0 0  508 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1854.2x2540_um
+      (shape (path F.Cu 1854.2  0 -342.9  0 342.9))
+      (shape (path B.Cu 1854.2  0 -342.9  0 342.9))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_3048x5080_um
+      (shape (path F.Cu 3048  0 -1016  0 1016))
+      (shape (path B.Cu 3048  0 -1016  0 1016))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x600_um
+      (shape (rect F.Cu -1000 -300 1000 300))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1270x2540_um
+      (shape (rect F.Cu -635 -1270 635 1270))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1270x3175_um
+      (shape (rect F.Cu -635 -1587.5 635 1587.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1854.2x2540_um
+      (shape (rect F.Cu -927.1 -1270 927.1 1270))
+      (shape (rect B.Cu -927.1 -1270 927.1 1270))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net VEE
+      (pins MDB1-VEE C1-1 P3-3 P4-3 P5-3 P6-3 R1-2 R2-2 R3-2 R4-2 U1-20)
+    )
+    (net GND
+      (pins MDB1-GND C1-2 P1-2 P1-4 P2-4 P2-2 P3-2 P3-5 P4-5 P4-2 P5-2 P5-5 P6-5 P6-2
+        U1-19 U1-10 U1-9 U1-8 U1-7 U1-6)
+    )
+    (net /IN_0
+      (pins MDB1-3 P3-4)
+    )
+    (net /IN_1
+      (pins MDB1-4 P4-4)
+    )
+    (net /IN_2
+      (pins MDB1-5 P5-4)
+    )
+    (net /IN_3
+      (pins MDB1-6 P6-4)
+    )
+    (net /OUT_0
+      (pins MDB1-20 U1-2)
+    )
+    (net /OUT_1
+      (pins MDB1-21 U1-3)
+    )
+    (net /OUT_2
+      (pins MDB1-22 U1-4)
+    )
+    (net /OUT_3
+      (pins MDB1-23 U1-5)
+    )
+    (net /OUTPUT_0
+      (pins P1-1 U1-18)
+    )
+    (net /OUTPUT_1
+      (pins P1-3 U1-17)
+    )
+    (net /OUTPUT_3
+      (pins P2-3 U1-15)
+    )
+    (net /OUTPUT_2
+      (pins P2-1 U1-16)
+    )
+    (net "Net-(P3-Pad1)"
+      (pins P3-1 R1-1)
+    )
+    (net "Net-(P4-Pad1)"
+      (pins P4-1 R2-1)
+    )
+    (net "Net-(P5-Pad1)"
+      (pins P5-1 R3-1)
+    )
+    (net "Net-(P6-Pad1)"
+      (pins P6-1 R4-1)
+    )
+    (net /~ENABLE
+      (pins MDB1-2 U1-1)
+    )
+    (class kicad_default ""
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 25.5)
+      )
+    )
+    (class GND GND
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 812.8)
+        (clearance 101.7)
+      )
+    )
+    (class LEDPOWER
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 609.6)
+        (clearance 254.1)
+      )
+    )
+    (class POWER VDD VEE
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 812.8)
+        (clearance 254.1)
+      )
+    )
+    (class SIGNAL /IN_0 /IN_1 /IN_2 /IN_3 /OUTPUT_0 /OUTPUT_1 /OUTPUT_2 /OUTPUT_3
+      /OUT_0 /OUT_1 /OUT_2 /OUT_3 /~ENABLE "Net-(MDB1-Pad10)" "Net-(MDB1-Pad11)"
+      "Net-(MDB1-Pad12)" "Net-(MDB1-Pad13)" "Net-(MDB1-Pad14)" "Net-(MDB1-Pad15)"
+      "Net-(MDB1-Pad16)" "Net-(MDB1-Pad17)" "Net-(MDB1-Pad18)" "Net-(MDB1-Pad19)"
+      "Net-(MDB1-Pad2)" "Net-(MDB1-Pad24)" "Net-(MDB1-Pad25)" "Net-(MDB1-Pad28)"
+      "Net-(MDB1-Pad29)" "Net-(MDB1-Pad30)" "Net-(MDB1-Pad3V3)" "Net-(MDB1-Pad9)"
+      "Net-(MDB1-PadAGND)" "Net-(MDB1-PadAREF)" "Net-(MDB1-PadDAC)" "Net-(P3-Pad1)"
+      "Net-(P4-Pad1)" "Net-(P5-Pad1)" "Net-(P6-Pad1)" "Net-(U1-Pad11)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad13)" "Net-(U1-Pad14)"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 812.8)
+        (clearance 101.7)
+      )
+    )
+    (class SUPERPOWER
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 1219.2)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
