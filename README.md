@@ -1,4 +1,4 @@
-#optical_switch_interface_3x2
+# optical_switch_interface_3x2
 
 Authors:
 
