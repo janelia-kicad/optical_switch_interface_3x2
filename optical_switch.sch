@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:optical_switch_interface_3x2
-LIBS:components
-LIBS:optical_switch_interface_3x2-cache
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L HEADER_01X05_SMD_SHR P3
+L optical_switch_interface_3x2:HEADER_01X05_SMD_SHR P3
 U 1 1 58C07487
 P 4100 2600
 AR Path="/58C073FC/58C07487" Ref="P3"  Part="1" 
@@ -64,7 +32,7 @@ F 6 "CONN HEADER .100 VERT 5POS SMD" H 500 500 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 58C07554
 P 3850 2850
 AR Path="/58C073FC/58C07554" Ref="#PWR014"  Part="1" 
@@ -86,7 +54,7 @@ Wire Wire Line
 	3900 2800 3850 2800
 Connection ~ 3850 2800
 $Comp
-L 180 R1
+L optical_switch_interface_3x2:180 R1
 U 1 1 58C075A4
 P 3600 2400
 AR Path="/58C073FC/58C075A4" Ref="R1"  Part="1" 
@@ -104,7 +72,7 @@ F 6 "RES SMD 180 OHM 5% 1/2W 1210" V 330 300 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L VEE #PWR015
+L power:VEE #PWR015
 U 1 1 58C07628
 P 3300 2350
 AR Path="/58C073FC/58C07628" Ref="#PWR015"  Part="1" 
